@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Vue-Pagination的简单示例</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<style>
+		caption {
+			caption-side: top;
+		}
+
+		td {
+			word-break: break-all;
+		}
+
+		table {
+			table-layout: fixed;
+			width: 300px;
+			margin: 0 auto;
+		}
+
+		.paginationWrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			margin-top: 1em;
+		}
+
+		#app {
+			margin: 32px auto;
+			width: 960px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="app">
+		<table border="1">
+			<caption>Vue-Pagination的简单示例</caption>
+			<tbody>
+				<tr v-for="i in alist">
+					<td>{{i}}</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="paginationWrapper">
+			<pagination @gotopage="gotoPage" :index="index" :count="list.length" :page-size="pageSize"></pagination>
+		</div>
+	</div>
+</body>
+
+</html>

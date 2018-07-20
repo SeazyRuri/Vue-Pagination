@@ -1,0 +1,27 @@
+
+.page-item[data-v-743fda5c] {
+  padding: 0.67em 1em;
+  border: 1px solid #9cd0d8;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.pages[data-v-743fda5c],
+.page-item[data-v-743fda5c] {
+  list-style: none;
+  margin: 0 4px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  vertical-align: middle;
+}
+.active[data-v-743fda5c] {
+  background-color: #9ca0d8;
+  cursor: default;
+}
+.pages[data-v-743fda5c] {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
