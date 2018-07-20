@@ -54,7 +54,7 @@ module.exports = {
             'Vue': 'vue'
         }),
         new HtmlWebpackPlugin({
-            filename: '../index.html', //基于output的路径
+            filename: '../../index.html', //基于output的路径
             template: './src/index.html', //基于配置的路径
             chunks: ['manifest', 'vue', 'index', ],
             chunksSortMode: 'manual', //按照上面的chunks顺序
