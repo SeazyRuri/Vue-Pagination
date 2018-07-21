@@ -25,7 +25,7 @@ index.html
 
     ...
     <div>
-			<pagination @gotopage="gotoPage" :index="index" :count="count" :page-size="pageSize"></pagination>
-		</div>
+		<pagination @gotopage="gotoPage" :index="index" :count="count" :page-size="pageSize"></pagination>
+	</div>
     ...
     
