@@ -1,5 +1,5 @@
 # Vue-Pagination
-A simple pagination tool based on Vue with webpack
+A simple pagination tool based on Vue with Webpack
 ## Usage
 index.js
 
